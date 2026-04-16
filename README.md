@@ -34,3 +34,16 @@ The shell includes a built-in simulator for a **Multilevel Feedback Queue (MLFQ)
 1. Compile the source code:
    ```bash
    gcc main.c -o jackfruit
+
+2. Run the shell
+   ./jackfruit
+
+## 4. Testing Commands
+
+1. Redirection: ls > output.txt
+
+2. Pipes: ls | grep main
+
+3. Scheduler: schedule MyTask 30
+
+4. Navigation: cd ..
